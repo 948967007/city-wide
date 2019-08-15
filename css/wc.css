@@ -1,0 +1,535 @@
+body,
+img,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+#marnpage {
+  width: 10rem;
+  background-color: #f2f4f7;
+}
+#marnpage #header {
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 1.38666667rem;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 0.46666667rem;
+  color: #32beae;
+}
+#marnpage #header .place {
+  width: 1.57333333rem;
+  height: 0.86666667rem;
+  font-size: 0.42666667rem;
+  text-align: center;
+  line-height: 0.86666667rem;
+}
+#marnpage #header .place i {
+  font-size: 0.30666667rem;
+}
+#marnpage #header .search {
+  width: 6.93333333rem;
+  height: 0.86666667rem;
+  border-radius: 0.46666667rem;
+  background: #eaedf1;
+  text-align: center;
+  color: #9b9fa6;
+}
+#marnpage #header .search span {
+  font-size: 0.37333333rem;
+  vertical-align: 0.05333333rem;
+}
+#marnpage #header .search i {
+  font-size: 0.53333333rem;
+  vertical-align: -0.02666667rem;
+}
+#marnpage #header .user {
+  width: 0.66666667rem;
+  height: 0.86666667rem;
+  text-align: center;
+}
+#marnpage #header .user i {
+  font-size: 0.66666667rem;
+  vertical-align: -0.06666667rem;
+}
+#marnpage #banner {
+  width: 100%;
+  height: 2.53333333rem;
+}
+#marnpage #banner .swiper-container {
+  overflow: hidden;
+  width: 100%;
+  height: 2.53333333rem;
+}
+#marnpage #banner .swiper-container .swiper-wrapper {
+  width: 600%;
+  height: 2.53333333rem;
+}
+#marnpage #banner .swiper-container .swiper-wrapper .swiper-slide {
+  float: left;
+  height: 2.53333333rem;
+}
+#marnpage #banner .swiper-container .swiper-wrapper .swiper-slide a {
+  display: inline-block;
+}
+#marnpage #banner .swiper-container .swiper-wrapper .swiper-slide a img {
+  width: 10rem;
+  height: 2.53333333rem;
+}
+#marnpage #banner .swiper-container .swiper-pagination {
+  bottom: 0;
+}
+#marnpage #banner .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+#marnpage #nav {
+  box-sizing: border-box;
+  width: 100%;
+  height: 7.61333333rem;
+  padding: 0.53333333rem 0.4rem 0 0.4rem;
+  background: #fff;
+}
+#marnpage #nav .cF {
+  width: 100%;
+  height: 2.57333333rem;
+  box-sizing: border-box;
+  border-bottom: 0.01333333rem solid #ccc;
+}
+#marnpage #nav .cF ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+#marnpage #nav .cF ul li {
+  text-align: center;
+}
+#marnpage #nav .cF ul li a {
+  display: inline-block;
+}
+#marnpage #nav .cF ul li img {
+  widows: 1.33333333rem;
+  height: 1.33333333rem;
+}
+#marnpage #nav .cF ul li p {
+  color: #333;
+  font-size: 0.34666667rem;
+}
+#marnpage #nav .cF1 {
+  box-sizing: border-box;
+  height: 4.4rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#marnpage #nav .cF1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#marnpage #nav .cF1 ul li {
+  float: left;
+  width: 1.73333333rem;
+  height: 1.26666667rem;
+  text-align: center;
+}
+#marnpage #nav .cF1 ul li a {
+  display: inline-block;
+}
+#marnpage #nav .cF1 ul li a img {
+  height: 0.8rem;
+}
+#marnpage #nav .cF1 ul li a p {
+  color: #333;
+  font-size: 0.30666667rem;
+}
+#marnpage #section {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  margin-top: 0.26666667rem;
+  padding: 0.26666667rem 0.4rem 0.4rem;
+  background: #fff;
+}
+#marnpage #section .time-limit {
+  width: 100%;
+  height: 0.6rem;
+}
+#marnpage #section .time-limit .limit {
+  float: left;
+  width: 2.13333333rem;
+  height: 100%;
+  background: url("../images/time.png") no-repeat;
+  background-position-x: -0.26666667rem;
+  background-position-y: -0.4rem;
+  background-size: 180%;
+}
+#marnpage #section .time-limit .time {
+  float: right;
+  width: 2.8rem;
+  height: 100%;
+}
+#marnpage #section .time-limit .time p {
+  float: left;
+  font-size: 0.30666667rem;
+  line-height: 0.6rem;
+}
+#marnpage #section .time-limit .time div {
+  float: right;
+  height: 100%;
+  font-size: 0.30666667rem;
+  line-height: 0.6rem;
+}
+#marnpage #section .time-limit .time div .timer {
+  width: 0.66666667rem;
+  height: 0.53333333rem;
+  background: #666;
+  color: #fff;
+  border-radius: 20%;
+}
+#marnpage #section .img {
+  float: left;
+  width: 3.33333333rem;
+  height: 2.66666667rem;
+}
+#marnpage #section .img a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#marnpage #section .img a img {
+  width: 100%;
+  height: 100%;
+}
+#marnpage #section .quantity {
+  float: right;
+  position: relative;
+  width: 5.6rem;
+  height: 2.66666667rem;
+}
+#marnpage #section .quantity a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+#marnpage #section .quantity a p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.30666667rem;
+  color: #666;
+  text-indent: 0.26666667rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+#marnpage #section .quantity a div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.4rem;
+  font-size: 0.26666667rem;
+  color: #666;
+}
+#marnpage #section .quantity a div span {
+  float: right;
+}
+#marnpage #section .quantity a div .rmb {
+  float: left;
+  color: #f00;
+}
+#marnpage #lv-module {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.33333333rem;
+  background: #fff;
+}
+#marnpage #lv-module .col-1 {
+  box-sizing: border-box;
+  padding: 0.26666667rem 0.4rem;
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-right: 0.02666667rem solid #f2f4f7;
+}
+#marnpage #lv-module .col-1 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#marnpage #lv-module .col-1 a .scenic {
+  display: flex;
+  float: left;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 1.93333333rem;
+  height: 100%;
+  font-size: 0.34666667rem;
+  color: #000;
+}
+#marnpage #lv-module .col-1 a .scenic .vip {
+  width: 100%;
+  height: 0.46666667rem;
+  border: 0.02666667rem solid #ebb73f;
+  border-radius: 0.24rem;
+  text-align: center;
+  line-height: 0.46666667rem;
+  color: #ebb73f;
+  font-size: 0.2rem;
+}
+#marnpage #lv-module .col-1 a .img {
+  float: right;
+  width: 1.26666667rem;
+  height: 100%;
+  line-height: 2rem;
+  text-align: center;
+}
+#marnpage #lv-module .col-1 a .img img {
+  width: 100%;
+}
+#marnpage #lv-module .col-2 {
+  float: right;
+}
+#marnpage #lv-module .col-2 .day {
+  border-color: #ff7e60;
+  color: #ff7e60;
+}
+#marnpage #app {
+  width: 100%;
+  height: 2.46666667rem;
+  margin-top: 0.26666667rem;
+  background: #fff;
+}
+#marnpage #app a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#marnpage #app a img {
+  width: 100%;
+  height: 100%;
+}
+#marnpage #hot {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.93333333rem;
+  margin-top: 0.26666667rem;
+  padding-top: 0.33333333rem;
+  text-align: center;
+  background: #fff;
+}
+#marnpage #hot .hot-1 {
+  position: relative;
+  width: 100%;
+  height: 0.66666667rem;
+}
+#marnpage #hot .hot-1 .hot-2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1.16666667rem;
+  width: 2.33333333rem;
+  height: 100%;
+}
+#marnpage #hot .hot-1 .hot-2 i {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 6.66666667rem;
+  height: 100%;
+  background: url("../images/time.png") no-repeat;
+  background-position-x: -0.4rem;
+  background-position-y: -1.46666667rem;
+  background-size: 80%;
+}
+#marnpage #hot .hot-1 .hot-2 span {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  font-size: 0.4rem;
+  color: #fb5300;
+  line-height: 0.64rem;
+}
+#marnpage #hot .hot-t {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.93333333rem;
+  padding: 0.53333333rem 0rem 0.26666667rem 0.4rem;
+}
+#marnpage #hot .hot-t ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#marnpage #hot .hot-t ul a {
+  display: inline-block;
+}
+#marnpage #hot .hot-t ul li {
+  width: 2.13333333rem;
+  height: 0.8rem;
+  margin-right: 0.26666667rem;
+  margin-bottom: 0.2rem;
+  line-height: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: #ccc;
+  font-size: 0.30666667rem;
+}
+#marnpage #hot .hot-t ul li a {
+  color: #000;
+  display: block;
+}
+#marnpage #spot {
+  box-sizing: border-box;
+  width: 100%;
+  height: 8rem;
+  padding: 0.26666667rem 0.13333333rem;
+  background: #fff;
+}
+#marnpage #spot ul {
+  width: 100%;
+  height: 6.73333333rem;
+}
+#marnpage #spot ul li {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 4.46666667rem;
+  height: 2.8rem;
+  margin-top: 0.26666667rem;
+  margin-left: 0.26666667rem;
+  border-radius: 0.13333333rem;
+}
+#marnpage #spot ul li a {
+  display: inline-block;
+}
+#marnpage #spot ul li a img {
+  width: 4.46666667rem;
+  height: 2.8rem;
+}
+#marnpage #spot ul li a span {
+  position: absolute;
+  bottom: 0;
+  left: 0.13333333rem;
+  font-size: 0.30666667rem;
+  color: #fff;
+}
+#marnpage #spot p {
+  height: 0.54666667rem;
+  text-align: center;
+  font-size: 0.37333333rem;
+}
+#marnpage #spot p a {
+  color: #00a0ff;
+}
+#marnpage #footer {
+  width: 100%;
+  height: 7.66666667rem;
+  background: #fff;
+}
+#marnpage #footer ul {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0.66666667rem 0.66666667rem;
+}
+#marnpage #footer ul li {
+  position: relative;
+  width: 100%;
+  height: 1.02666667rem;
+  margin-top: 0.73333333rem;
+}
+#marnpage #footer ul li i {
+  display: inline-block;
+  position: absolute;
+  top: 0.10666667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: url("../images/time.png") no-repeat;
+  background-position-x: -0.4rem;
+  background-position-y: -2.8rem;
+  background-size: 700%;
+}
+#marnpage #footer ul li div {
+  position: absolute;
+  height: 1.02666667rem;
+  left: 1.33333333rem;
+  color: #9f8a70;
+}
+#marnpage #footer ul li div p {
+  font-size: 0.37333333rem;
+}
+#marnpage #footer ul li div span {
+  float: left;
+  font-size: 0.16rem;
+}
+#marnpage #footer ul .one {
+  margin-top: 0;
+}
+#marnpage #footer ul .two i {
+  background-position-x: -1.73333333rem;
+  background-position-y: -2.8rem;
+}
+#marnpage #footer ul .three i {
+  background-position-x: -3.06666667rem;
+  background-position-y: -2.8rem;
+}
+#marnpage #footer ul .four i {
+  background-position-x: -4.4rem;
+  background-position-y: -2.8rem;
+}
+#marnpage #bottom {
+  width: 100%;
+  height: 2.34666667rem;
+  background: #fff;
+}
+#marnpage #bottom ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.34666667rem;
+}
+#marnpage #bottom ul li {
+  width: 3.32rem;
+  height: 2.34666667rem;
+  text-align: center;
+}
+#marnpage #bottom ul li a {
+  display: inline-block;
+  color: #666;
+}
+#marnpage #bottom ul li a img {
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+#marnpage #bottom ul li a p {
+  font-size: 0.30666667rem;
+}
